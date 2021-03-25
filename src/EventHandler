@@ -1,0 +1,66 @@
+
+
+//Input Event Handler on Change. write in the input and chages text below
+
+
+
+export class Input extends React.Component {
+  constructor(props) {
+    super(props);
+    
+    this.state = { userInput: '' };
+    
+    this.handleUserInput = this.handleUserInput.bind(this);
+  }
+  
+  handleUserInput(e) {
+    this.setState({userInput: e.target.value});
+  }
+
+  render() {
+    return (
+      <div>
+        <input type="text" onChange={this.handleUserInput} value={this.state.userInput} />
+        <h1>{this.state.userInput}</h1>
+      </div>
+    );
+  }
+}
+
+/////////////////////////////////////
+componentWillMount
+
+The first mounting lifecycle method is called componentWillMount.
+When a component renders for the first time, componentWillMount 
+gets called right before render.
+
+/////////////////////////////////////////
+
+
+export class Flashy extends React.Component {
+  componentWillMount() {
+ 	alert('AND NOW, FOR THE FIRST TIME EVER...  FLASHY!!!!');
+ 
+}
+  render() {
+    alert('Flashy is rendering!');
+    
+    return (
+      <h1 style={{ color: this.props.color }}>
+        OOH LA LA LOOK AT ME I AM THE FLASHIEST
+      </h1>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Flashy color='red' />,
+  document.getElementById('app')
+);
+
+setTimeout(() => {
+  ReactDOM.render(
+    <Flashy color='green' />,
+    document.getElementById('app')
+  );
+}, 2000);
