@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sarauras1/reven/static/css/main.f957a60e.chunk.css",
+    "main.js": "/sarauras1/reven/static/js/main.a156590e.chunk.js",
+    "main.js.map": "/sarauras1/reven/static/js/main.a156590e.chunk.js.map",
+    "runtime-main.js": "/sarauras1/reven/static/js/runtime-main.9286518b.js",
+    "runtime-main.js.map": "/sarauras1/reven/static/js/runtime-main.9286518b.js.map",
+    "static/js/2.ae4d3e85.chunk.js": "/sarauras1/reven/static/js/2.ae4d3e85.chunk.js",
+    "static/js/2.ae4d3e85.chunk.js.map": "/sarauras1/reven/static/js/2.ae4d3e85.chunk.js.map",
+    "index.html": "/sarauras1/reven/index.html",
+    "precache-manifest.f148909bf56fe459f6dad3dac63af4de.js": "/sarauras1/reven/precache-manifest.f148909bf56fe459f6dad3dac63af4de.js",
+    "service-worker.js": "/sarauras1/reven/service-worker.js",
+    "static/css/main.f957a60e.chunk.css.map": "/sarauras1/reven/static/css/main.f957a60e.chunk.css.map",
+    "static/js/2.ae4d3e85.chunk.js.LICENSE.txt": "/sarauras1/reven/static/js/2.ae4d3e85.chunk.js.LICENSE.txt",
+    "static/media/SearchBar.css": "/sarauras1/reven/static/media/background_search_mobile.5d0905e6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9286518b.js",
+    "static/js/2.ae4d3e85.chunk.js",
+    "static/css/main.f957a60e.chunk.css",
+    "static/js/main.a156590e.chunk.js"
+  ]
+}
